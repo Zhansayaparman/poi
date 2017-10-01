@@ -21,4 +21,9 @@ public class MyMath {
     }public static int min3(int a,int b,int c){
         int min=min(a,b);
         return min(min,c);
-}}
+} public static int isOdd(int a){
+        return (a%2!=0);
+
+    }
+
+}
