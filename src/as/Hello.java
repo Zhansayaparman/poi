@@ -6,11 +6,8 @@ public class Hello {
         System.out.print("Зертхананың мақсаты");
         System.out.print("Github-ты үйрену");
 
-        int a=MyMath.kvadrat(5);
-        int b=MyMath.kub(5);
-        System.out.print("a="+a);
-        System.out.print("b="+b);
-    System.out.print(MyMath.max(8,9));
+        System.out.print("max="+MyMath.max3(8,9,12));
+        System.out.print("min="+MyMath.min3(12,9,15));
 
 
     }
